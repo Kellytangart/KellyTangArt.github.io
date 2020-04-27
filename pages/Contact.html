@@ -14,13 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" type="text/css" href="profilestyle.css">
+<link rel="stylesheet" type="text/css" href="contactstyle.css">
+
 
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-  <a class="navbar-brand" href="index.HTML">Kelly Tang
-</a>
-
+  <a class="navbar-brand" href="index.html">Kelly Tang</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,67 +28,74 @@
       <li class="nav-item active">
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.HTML">About</a>
+        <a class="nav-link" href="About.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.HTML">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
       &nbsp;&nbsp;
          <a href="https://www.instagram.com/awkwardkarrot/">
-  <img src="Instagram Icon.png" height="38" width="38"> </a>
+        <img src="Instagram Icon.png" 
+             height="38" width="38"> </a>
       </li>
 
     </ul>
   </div>
 </nav>
-<br>
-<br>
-<br>
-<h3>&nbsp;About</h3>
-<hr>
-<br>
-    <main role="main" class="container">
 
-    <div class="container">
-  <div class="row">
-    <div class="col">
-      <img src="profile.png"
-      style="width:100%">
-    </div>
-    <div class="col">
-      <div class="starter-template">
-        
-        <h1>From San Francisco, CA.</h1>
-        <p class="lead">&nbsp;&nbsp;Kelly Tang aspiring young mixed-media art student. Currently completing a Bachelor's in Studio Practice at San Jose State University.<br> Sorry I do not know what to write for my About Page this is to be determined. Keep out for the changes.... one day....</p>
-    </div>
+
+<br>
+<br>
+<br>
+<h3>&nbsp;&nbsp;Contact</h3>
+<hr>
+<p>&nbsp;&nbsp;&nbsp;If you have a project or any questions, feel free to contact me below for any inquries.<p>
+<p>This doesn't get sent anywhere I need to figure that out so do not even try.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thank you.<p>
+<br>
+
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
       </div>
-      <div class="container">
-  <div class="row">
-    <div class="col">
-      <p>Services</p>
-      <p1>Photoshop<br>Illustrator<br>Sculpture Work</p1>
-
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
     </div>
-    <div class="col">
-      <p>Clients</p>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
     </div>
-  </div>
-       </main><!-- /.container -->
-<br>    
-<hr>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Starter Template for Bootstrap_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="./Starter Template for Bootstrap_files/popper.min.js.download"></script>
-    <script src="./Starter Template for Bootstrap_files/bootstrap.min.js.download"></script>
-  
-
-</body><div id="__genieContainer" style="all: initial;"></div></html>
-
-   </div>
+      <div class="row">
+      <div class="col-25">
+        <label for="Email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email..">
+      </div>
     </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+     </div>
+    </div>
+
  <br>
 <br>
 <br>
